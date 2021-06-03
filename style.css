@@ -1,7 +1,9 @@
+/*changes to the main background*/
 body {
     font-size: 19px;
     background-image: url("https://i.imgur.com/fm0ibZr.jpg");
 }
+
 table{
     width: 50%;
     margin: 30px auto;
@@ -16,11 +18,12 @@ th, td{
     color: black;
     font-family:cambria;
 }
+/*effect when mouse hovers over field*/
 tr:hover {
     background: #f2c4ff;
     opacity: 1;
 }
-
+/*modification to form appearance*/
 form {
     width: 45%;
     margin: 50px auto;
@@ -32,7 +35,7 @@ form {
     background-image: url("https://i.imgur.com/bzc7dJc.jpeg");
     background-size: cover;
 
-
+/* Modifications to input fields*/
 }
 
 input {
@@ -45,7 +48,7 @@ input {
     font-family: garamond;
     opacity: 0.6;
 }
-
+/* Modifications to specifically the submit button*/
 input[type=submit]
 {
 background-color: lime;

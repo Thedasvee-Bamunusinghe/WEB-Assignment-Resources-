@@ -3,13 +3,14 @@
 <head>
 	
 	<title>Application Form</title>
-
+<!--Link to external stylesheet-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-
+<!-- Link to php file (the file which fetch entered information -->
 <form name="details" method="post" action="Applicant Info Inner.php">
+	<!-- Table containing fields for user input -->
 	<table>
 		<h1> Enter Your Details </h1>
 		<tr><td>First Name:</td>

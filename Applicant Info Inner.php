@@ -19,5 +19,11 @@ if($lname=="")
 	</script>';
 }
 
+if($email=="")
+{
+	echo '<script>
+	window.location.href="Applicant Info.html"
+	</script>';
+}
 
 ?>

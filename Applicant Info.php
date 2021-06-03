@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<title>Application Form</title>
+<title>Application Form</title>
+<script src="Scripts.js"></script>
 <!--Link to external stylesheet-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<!-- Link to php file (the file which fetch entered information -->
-<form name="details" method="post" action="Applicant Info Inner.php">
+<!-- Link to php file (the file will fetch entered information) , the javascript file will exceute function validation once the form is submitted -->
+<form name="details" method="post" action="Applicant Info Inner.php" onsubmit="validateForm()">
 	<!-- Table containing fields for user input -->
 	<table>
 		<h1> Enter Your Details </h1>
@@ -27,7 +27,5 @@
 		
 </table>
 </form>
-
-
 </body>
 </html>

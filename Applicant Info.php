@@ -9,7 +9,7 @@
 <body>
 
 
-<form name="details" method="post">
+<form name="details" method="post" action="Applicant Info Inner.php">
 	<table>
 		<h1> Enter Your Details </h1>
 		<tr><td>First Name:</td>
@@ -19,7 +19,7 @@
 			<td><input type="text" name="Lname"></td>
 		</tr>
 		<tr><td>Email:</td>
-			<td><input type="email" name="Fname"></td>
+			<td><input type="email" name="email"></td>
 		</tr>
 		<tr><td></td>
 			<td><input type="submit" name="done" value="Submit"></td>

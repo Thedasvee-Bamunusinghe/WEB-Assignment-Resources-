@@ -8,6 +8,7 @@ table{
     width: 50%;
     margin: 30px auto;
     border-collapse: collapse;
+    /*^ Changing Border Model*/
     text-align: left;
 }
 
@@ -30,6 +31,7 @@ form {
     text-align: left;
     padding: 20px; 
     border: 2px solid #bbbbbb; 
+    /* Amount of curve in border radius */
     border-radius: 50px;
     border-color: purple;
     background-image: url("https://i.imgur.com/bzc7dJc.jpeg");
@@ -40,6 +42,7 @@ form {
 
 input {
     padding: 10px;
+    /* ^ Space between input fields */
     font-size: 15px;
     color: white;
     background: #00187a;
@@ -61,6 +64,7 @@ opacity: 1;
 h1 {
 
     text-align: center;
+    /* ^ Position of heading text*/
     color:#4cfcd9;
     font-family: Book Antiqua;
 

@@ -1,0 +1,62 @@
+body {
+    font-size: 19px;
+    background-image: url("https://i.imgur.com/tOHsqh1.jpg");
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    
+
+}
+th, td{
+    border: 1;
+    height: 60px;
+    padding: 5px;
+    color: black;
+    font-family:cambria;
+}
+tr:hover {
+    background: #c4dbff;
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 2px solid #bbbbbb; 
+    border-radius: 50px;
+    border-color: purple;
+    background-image: url("https://i.imgur.com/fm0ibZr.jpg");
+    background-size: cover;
+
+
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #56a1fc;
+    border: 10;
+    border-radius: 50px;
+    font-family: garamond;
+}
+
+input[type=submit]
+{
+background-color: lime;
+}
+
+h1 {
+
+    text-align: center;
+    color:#4cfcd9;
+    font-family: Book Antiqua;
+
+
+}

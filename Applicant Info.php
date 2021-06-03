@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Application Form</title>
+<!-- Link to external javascript file -->
 <script src="Scripts.js"></script>
 <!--Link to external stylesheet-->
 <link rel="stylesheet" type="text/css" href="style.css">

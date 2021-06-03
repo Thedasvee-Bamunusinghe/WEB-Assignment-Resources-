@@ -1,6 +1,6 @@
 body {
     font-size: 19px;
-    background-image: url("https://i.imgur.com/tOHsqh1.jpg");
+    background-image: url("https://i.imgur.com/fm0ibZr.jpg");
 }
 table{
     width: 50%;
@@ -8,10 +8,7 @@ table{
     border-collapse: collapse;
     text-align: left;
 }
-tr {
-    
 
-}
 th, td{
     border: 1;
     height: 60px;
@@ -20,7 +17,8 @@ th, td{
     font-family:cambria;
 }
 tr:hover {
-    background: #c4dbff;
+    background: #f2c4ff;
+    opacity: 1;
 }
 
 form {
@@ -31,7 +29,7 @@ form {
     border: 2px solid #bbbbbb; 
     border-radius: 50px;
     border-color: purple;
-    background-image: url("https://i.imgur.com/fm0ibZr.jpg");
+    background-image: url("https://i.imgur.com/bzc7dJc.jpeg");
     background-size: cover;
 
 
@@ -41,15 +39,20 @@ input {
     padding: 10px;
     font-size: 15px;
     color: white;
-    background: #56a1fc;
-    border: 10;
+    background: #00187a;
+    border: 10px;
     border-radius: 50px;
     font-family: garamond;
+    opacity: 0.6;
 }
 
 input[type=submit]
 {
 background-color: lime;
+font-size: 17px;
+float: left;
+border-radius: 50px;
+opacity: 1;
 }
 
 h1 {

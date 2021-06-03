@@ -22,6 +22,7 @@ th, td{
 /*effect when mouse hovers over field*/
 tr:hover {
     background: #f2c4ff;
+    /*This will determine the transperancy of the element*/
     opacity: 1;
 }
 /*modification to form appearance*/
@@ -35,6 +36,7 @@ form {
     border-radius: 50px;
     border-color: purple;
     background-image: url("https://i.imgur.com/bzc7dJc.jpeg");
+    /* This will determine how the wallpaper is fitted within the form */
     background-size: cover;
 
 /* Modifications to input fields*/

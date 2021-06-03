@@ -22,8 +22,7 @@
 		<tr><td>Email:</td>
 			<td><input type="email" name="email"></td>
 		</tr>
-		<tr><td></td>
-			<td><input type="submit" name="done" value="Submit"></td>
+		<tr><td><input type="submit" name="done" value="Submit"></td>
 		</tr>
 		
 </table>

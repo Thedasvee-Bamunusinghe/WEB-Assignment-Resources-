@@ -12,8 +12,8 @@
 <!-- Link to php file (the file will fetch entered information) , the javascript file will exceute function validation once the form is submitted -->
 <form name="details" method="post" action="Applicant Info Inner.php" onsubmit="validateForm()">
 	<!-- Table containing fields for user input -->
+	<h1> Enter Your Details </h1>
 	<table>
-		<h1> Enter Your Details </h1>
 		<tr><td>First Name:</td>
 			<td><input type="text" name="Fname"></td>
 		</tr>

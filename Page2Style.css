@@ -1,21 +1,24 @@
+/*Gradient background for overall page */
 body {
+	/* Allows elements to span the webpage gaplessly */
 	margin: 0;
 	padding: 0;
 	background-color: #FA8BFF;
         background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);;
 
 }
-
+/*Styling for specifically the introduction section */
 .intro {
 	border: solid 3px;
 	font-size: 18px;
 	border-radius: 10px;
 	text-align: center;
 	height: 100px;
+	/*Text Color*/
 	color: white;
 	background: rgb(34,195,174);
-    background: linear-gradient(16deg, rgba(34,195,174,1) 0%, rgba(96,123,189,1) 66%, rgba(74,105,211,1) 81%, rgba(90,45,253,1) 100%);
-    overflow: hidden;
+        background: linear-gradient(16deg, rgba(34,195,174,1) 0%, rgba(96,123,189,1) 66%, rgba(74,105,211,1) 81%, rgba(90,45,253,1) 100%);
+        overflow: hidden;
 }
 
 .header {
@@ -25,42 +28,46 @@ body {
 	font-family: garamond;
 	width: 100%;
 	background: rgb(2,228,180);
-    background: linear-gradient(90deg, rgba(2,228,180,1) 17%, rgba(2,228,199,1) 23%, rgba(2,228,214,1) 28%, rgba(2,223,228,1) 33%, rgba(2,223,228,1) 38%, rgba(2,216,228,1) 44%, rgba(2,220,228,1) 51%, rgba(2,208,228,1) 56%, rgba(2,185,228,1) 62%, rgba(2,182,228,1) 68%, rgba(2,151,228,1) 76%, rgba(2,121,228,1) 87%, rgba(0,40,255,1) 100%);
-    overflow: hidden;
+        background: linear-gradient(90deg, rgba(2,228,180,1) 17%, rgba(2,228,199,1) 23%, rgba(2,228,214,1) 28%, rgba(2,223,228,1) 33%, rgba(2,223,228,1) 38%, rgba(2,216,228,1) 44%, rgba(2,220,228,1) 51%, rgba(2,208,228,1) 56%, rgba(2,185,228,1) 62%, rgba(2,182,228,1) 68%, rgba(2,151,228,1) 76%, rgba(2,121,228,1) 87%, rgba(0,40,255,1) 100%);
+        overflow: hidden;
 
 }
 
  .list {
  	text-align: left;
-    
  	font-size: 20px;
  	border: solid 1px;
  	border-radius: 50px;
  	width: 65%;
  	padding: 10;
  	background-color: #5E929D;
+	/* Link to fetch background image from google drive */
  	background-image: url("https://drive.google.com/uc?export=view&id=1Ic2O9kF40rzR1w8bOHLEUL61BgVQeSAW");
+	/* Causes the full image to fit within the list container */ 
  	background-size: contain;
+	/* Prevents background from repeating */
  	background-repeat: no-repeat;
+	/* Positions image to center */
  	background-position: center;
  	color: white;
  }
 
 h3{
+	/* Creates a dotted border around the container */
 	border: dotted 1px;
 	border-radius: 40px;
 	width: 30%;
 	background: rgb(195,82,34);
-    background: linear-gradient(16deg, rgba(195,82,34,1) 0%, rgba(189,174,96,1) 66%, rgba(211,136,74,1) 81%, rgba(253,97,45,1) 100%);
+        background: linear-gradient(16deg, rgba(195,82,34,1) 0%, rgba(189,174,96,1) 66%, rgba(211,136,74,1) 81%, rgba(253,97,45,1) 100%);
 }
 
 .outro{
 	border: solid 0px;
 	border-radius: 5px;
 	background: #30E8BF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    overflow: hidden;
-    font-size: 17px;
+        background: -webkit-linear-gradient(to right, #FF8235, #30E8BF); 
+        background: linear-gradient(to right, #FF8235, #30E8BF); 
+        overflow: hidden;
+        font-size: 17px;
 }
 

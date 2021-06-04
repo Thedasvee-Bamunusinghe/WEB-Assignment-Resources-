@@ -54,5 +54,13 @@ h3{
     background: linear-gradient(16deg, rgba(195,82,34,1) 0%, rgba(189,174,96,1) 66%, rgba(211,136,74,1) 81%, rgba(253,97,45,1) 100%);
 }
 
-
+.outro{
+	border: solid 0px;
+	border-radius: 5px;
+	background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+    font-size: 17px;
+}
 

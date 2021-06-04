@@ -5,7 +5,7 @@
 <!-- Link to external javascript file -->
 <script src="Scripts.js"></script>
 <!--Link to external stylesheet-->
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="Form style.css">
 </head>
 <body>
 

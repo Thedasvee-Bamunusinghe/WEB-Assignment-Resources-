@@ -21,6 +21,7 @@ body {
         overflow: hidden;
 }
 
+/* Styling for specifically the heading */
 .header {
 	font-size: 35px;
 	text-align: center;
@@ -33,6 +34,7 @@ body {
 
 }
 
+/* Styling for specifically the goals list*/
  .list {
  	text-align: left;
  	font-size: 20px;
@@ -52,6 +54,8 @@ body {
  	color: white;
  }
 
+
+/* Styling for specifically heading 3 elements */
 h3{
 	/* Creates a dotted border around the container */
 	border: dotted 1px;
@@ -61,6 +65,7 @@ h3{
         background: linear-gradient(16deg, rgba(195,82,34,1) 0%, rgba(189,174,96,1) 66%, rgba(211,136,74,1) 81%, rgba(253,97,45,1) 100%);
 }
 
+/* Styling for specifically the outro list section */
 .outro{
 	border: solid 0px;
 	border-radius: 5px;

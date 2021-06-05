@@ -2,58 +2,70 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<!--This will scale the viewport according to the screen size, adjusting the visual area-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sustainable Development Goals</title>
+	<!--Link to Bootstrap Stylesheet -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- Link to fontawesome icon library -->
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!-- Link to external stylesheet -->
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-
+<!-- navigation tag , navbar is set to expand on medium screens, bg-light applies the light theme and sticky-top prevents the navabar from being a consistent overlay -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<!-- div tag to create a container for the logo and toggle buttons -->
 <div class="container-fluid">
  <a class="navbar-logo" href=""><img src="https://drive.google.com/uc?export=view&id=1zvnynra5VzRDpv1JRyVvOEj57JDm0rj1" width="50%" height="50%"></a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
  	<span class="navbar-toggler-icon"></span>
  	</button>
+	<!-- Div class for expanded navigation bar, navbarResponsive allows the navbar to be interactive -->
  	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<!--Unordered list, ml-auto creates a margin to the left  -->
  		<ul class="navbar-nav ml-auto">
+			<!--List items, the active class makes this element the default chosen tag -->
  			<li class="nav-item active">
  				<a class="nav-link" href="">Home</a>
  			</li>
  			<li class="nav-item">
- 				<a class="nav-link" href="">About</a>
+ 				<a class="nav-link" href="">Targets</a>
  			</li>
  			<li class="nav-item">
- 				<a class="nav-link" href="">Goals</a>
+ 				<a class="nav-link" href="index2.html">Goals</a>
  			</li>
  			<li class="nav-item">
  				<a class="nav-link" href="">Events</a>
  			</li>
  			<li class="nav-item">
- 				<a class="nav-link" href="">Apply</a>
+ 				<a class="nav-link" href="">Sign Up</a>
  			</li>
  		</ul>
  	</div>
 </div>
 </nav>
-
+<!-- Bootstrap intergration for image slider, data-slide-to="" allows scrolling between images-->
 <div id="slides" class="carousel slide" data-ride="carousel">
 <ul class="carousel-indicators">
+	<!--Active class means data-slide-to="0" is the default -->
 	<li data-target="#slides" data-slide-to="0" class="active"></li>
 	<li data-target="#slides" data-slide-to="1"></li>
 	<li data-target="#slides" data-slide-to="2"></li>
 </ul>
+<!--Content area within the carousel for text and images -->	
 <div class="carousel-inner">
 	<div class="carousel-item active">
+		<!--Backgrounds for carousel -->
 		<img src="https://drive.google.com/uc?export=view&id=1Aosqh4F2BE9972M1a6PJzJhPjnmI20y1">
 		<div class="carousel-caption">
+			<!--Text overlay for relevant image -->
 			<h1 class="display-2">Goal 14</h1>
 			<h3> Conserve and sustainably use the oceans, seas and marine resources for sustainable development </h3>
-			<button type="button" class="btn btn-primary btn-lg">Get Started</button> 
+			
 	</div>
 </div>
 	<div class="carousel-item">
@@ -67,11 +79,14 @@
 </div>
 	
 <div class="container-fluid">
+<!--A text area offered by bootstrap which highlights information -->	
 <div class="row jumbotron">
+	<!--Number of columns will be decided based on screen size, from extra small (>=768px) having 12 to extra large (>=1200px) having 10 -->
 	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
 		<p class="lead">Over the years marine ecosystems have crumbled due to rising threats such as pollution and fishing, due to this they are at risk of disappearing for good. To counter this, the UN placed number 14 of the Sustainable Development Goals on conserving oceans along with 16 other goals.</p>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<!-- additional button class offered by bootstrap to allow different button types in a webpage, btn-lg creates a large button -->
 		<a href="Page2.html"><button type="button" class="btn btn-outline-secondary btn-lg">Other Goals
 		</button></a>
 	</div>
@@ -80,6 +95,7 @@
 
 <div class="container-fluid padding">
 <div class="row welcome text-center">
+<!-- this div will span 12 columns --> 	
 <div class="col-12">
 	<h1 class="display-4">Main Targets</h1>
 </div>
@@ -92,7 +108,9 @@
 
 <div class="container-fluid padding">
 <div class="row text-center padding">
+	<!--This div and later divs will span 12 columns on extra small screens, 6 on small and 4 on medium  -->
 	<div class="col-xs-12 col-sm-6 col-md-4">
+     <!--i tags are special tags offered by the fontawesome service, it allows the inclusion of several icons based on their unique identifiers -->	 	
      <i class="fa fa-trash" aria-hidden="true"></i>
      <h3>By 2020</h3>
      <p>Reduce Ocean Pollution</p>
@@ -153,6 +171,8 @@ col-lg-6 stands for column large column width 6 (half the page usually)  it is t
 </div>
 <!-- A special variation of the hr tag offered by bootstrap -->
 <hr class="my-4">
+
+
 	
 </body>
 </html>

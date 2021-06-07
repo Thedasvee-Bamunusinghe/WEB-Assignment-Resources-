@@ -1,29 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 
+/*Styling for base container, it will apply to all the tiles */
 .sdg-section{
 	margin: 0 auto;
+	/*This will create spacing around the elements inside it */
 	padding: 2% 3%;
 }
 
+/*This will adjust all elements in the list */
 .sdg-grid{
 	margin: 20px 0 0 0;
 	padding: 0;
 	list-style: none;
+	/*elements will be displayed as blocks*/
 	display: block;
 	text-align: center;
 	width: 100%;
 }
 
-.sdg-grid:after{
-	clear: both;
-}
 
-.sdg-grid:after, .sdg-grid:before{
-	content: "";
-	display: table;
-}
-
+/*These parameters will allow the list elements to be displayed as tiles, each with a height and width of 328 pixels and a 20 pixel spacing around it  */
 .sdg-grid li{
 	width: 328px;
 	height: 328px;
@@ -34,17 +31,18 @@
 .sdg-box{
 	width: 90%;
 	height: 100%;
+	/*This will only change the layout around the tile */
 	position: relative;
-	cursor: pointer;
+	/*This will add curvature to the tile border*/
 	border-radius: 10px;
-	-webkit-transition:  0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;	
-    -moz-transition:  0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
-    transition:  0.3s ease-in-out, transform 0.3s ease-in-out;	
 }	
 
 .sdg-box:hover{
+	/*the transform property will make the tile larger when the cursor hovers over it*/
 	transform: scale(1.05);
 }
+/*from this point to sdg-img-17 is the application of a color gradient which will be the background of the tile, 
+the classes are unique to each tile to allow a unique gradient for each one */
 
 .sdg-img-1{
 background-color: #002dff;
@@ -143,4 +141,60 @@ background-image: linear-gradient(0deg, #ff0000 0%, #ffc300 19%, #fdf24d 39%, #8
 background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
+}
+/*This will affect the back to homepage button, it will apply a color gradient, change the font and curve the borders */
+.btn-primary{
+border: 0;
+background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+font-family: garamond;
+border-radius: 20px;
+
+}
+/*This will change the text color and background gradient when hovering over the button */
+.btn-primary:hover{
+background-color: #f55c8a;
+background-image: linear-gradient(0deg, #f55c8a 0%, #7dfffc 100%);
+color: black;
+}
+
+
+.sdg-info {
+	/*This will position the tile closest to the one next to it, this is used to align all the tiles in a straight line per column */
+	position: absolute;
+	/*This means it will use the width and height of it's parent class, in this case the sdg-box class */
+	width: inherit;
+	height: inherit;
+}
+
+/*Styling to the content in the tiles (body) */
+.sdg-info p{
+ padding: 4px 5px;
+ margin: 0 30px;
+ font-family: 'Mate SC', serif;
+ color: #fff;
+/* size of text */ 	
+ font-size: 14px;
+/*This is the space between paragraphs of the text */	
+ line-height: 2;
+}
+/*Styling to the heading of the tile */
+.sdg-info h3{
+	font-family: 'Pacifico',cursive;
+	/*This is to set how bold the text will be*/
+	font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 10px;
+	padding: 50px 0 0 0;
+	line-height: 2;
+}
+
+/*Custom font for header text (All Goals) */
+.display-4{
+	font-family: garamond;
+}
+/*Custom color for the text under the heading */
+.under {
+	color: grey;
 }

@@ -34,6 +34,7 @@
  				<a class="nav-link" href="#home">Home</a>
  			</li>
  			<li class="nav-item">
+				<!--With the use of the section tag a link is made to the targets section of the page, it will be linked to the targets option-->
  				<a class="nav-link" href="#targets">Targets</a>
  			</li>
  			<li class="nav-item">
@@ -98,6 +99,7 @@
 <div class="row welcome text-center">
 <!-- this div will span 12 columns --> 	
 <div class="col-12">
+	<!-- The section tag can be used to link to a certain part of a page, here it is used to link to the targets section-->
 	<section id="targets"><h1 class="display-4">Main Targets</h1></section>
 </div>
 <hr> 
@@ -211,14 +213,16 @@ col-lg-6 stands for column large column width 6 (half the page usually)  it is t
 <div class="container-fluid padding">
 <div class="row padding">
 	<div class="col-md-4">
-	<!--Special div class for text areas to appear as cards -->
+	<!--Special bootstrap div class for text areas to appear as cards -->
        <div class="card">
 	<!--This image class will allow it to display as the top section of the card -->       
        <img class="card-img-top" src="https://drive.google.com/uc?export=view&id=1PXVq9CE7kwXvbaFZXdEdBPggIImhM2pY">
+       <!--This will act as the container for the card text -->        
        <div class="card-text">
+	<!--Special bootstrap h4 class-->       
        	<h4 class="card-title">World Oceans Day</h4>
        	<p class="card-text">8 June 2021</p>
-	<!--Attached a link to the relevant event to a button through the anchor tag-->       
+	<!--Attached a link to the relevant event, to a button through the anchor tag-->       
        	<a href="https://sdgs.un.org/events/world-oceans-day-32567" class="btn btn-outline-secondary">Learn More</a>
       </div>	
 	</div>
@@ -283,9 +287,12 @@ col-lg-6 stands for column large column width 6 (half the page usually)  it is t
 </div>
 </div>
 </div>
+<!-- This will act as the closing section of the page -->	
 <footer>
 <div class="container-fluid padding">
+<!--This bootstrap class will center text to it's specific row -->	
 <div class="row text-center">
+<!-- This row and the remaining rows will cover 4 columns from medium screens onwards-->	
   <div class="col-md-4">
   	<img src="https://drive.google.com/uc?export=view&id=1LzQrEvGywtFs4WH3ysucRa1Hu7ZYZMTE" width="90%" height="25%">
   	<hr class="light">
@@ -308,12 +315,16 @@ col-lg-6 stands for column large column width 6 (half the page usually)  it is t
   	<hr class="light">
   	<h5>More</h5>
   	<hr class="light">
+		                                    <!--i tags link to specific fontawesome icons, here it is used to add link icons -->
   	<p><a href="https://UN.org">Official Website <i class="fa fa-link" aria-hidden="true"></i></a></p>
   	<p><a href="https://www.un.org/en/about-us/copyright">Copyright <i class="fa fa-link" aria-hidden="true"></i></a></p>
     <p><a href="https://www.un.org/en/about-us/fraud-alert">Fraud Alert <i class="fa fa-link" aria-hidden="true"></i></a></p>
   </div>
+<!--Final div class section will span the entire page (12 columns) -->	
   <div class="col-12">
+    <!--Special bootstrap hr class, it will give the hr tag a light theme -->	  
     <hr class="light-end">
+    <!--&copy will add the copyright symbol -->	  
     <h5>&copy; UN.org </h5>
   </div>
 

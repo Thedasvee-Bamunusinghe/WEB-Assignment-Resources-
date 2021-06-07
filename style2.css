@@ -46,3 +46,101 @@
 	transform: scale(1.05);
 }
 
+.sdg-img-1{
+background-color: #002dff;
+background-image: linear-gradient(160deg, #002dff 0%, #69c8e4 100%);
+
+}
+
+.sdg-img-2{
+background-color: #00983d;
+background-image: linear-gradient(45deg, #00983d 0%, #c9c300 100%);
+
+}
+.sdg-img-3{
+background-color: #00b1de;
+background-image: linear-gradient(90deg, #00b1de 0%, #ff0018 100%);
+
+}
+.sdg-img-4{
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+.sdg-img-5{
+background-color: #ff5800;
+background-image: linear-gradient(62deg, #ff5800 0%, #e2a200 100%);
+
+}
+
+.sdg-img-6{
+background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #ff9f2c 100%);
+
+}
+
+.sdg-img-7{
+background-color: #ff00d0;
+background-image: linear-gradient(45deg, #ff00d0 0%, #ff0000 100%);
+
+}
+
+.sdg-img-8{
+background-color: #6ba2ff;
+background-image: linear-gradient(180deg, #6ba2ff 0%, #ff2fc6 100%);
+
+}
+
+.sdg-img-9{
+background-color: #3f21ff;
+background-image: linear-gradient(180deg, #3f21ff 0%, #3bb6ff 50%, #ff8800 100%);
+
+}
+
+.sdg-img-10{
+background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+
+.sdg-img-11{
+background-color: #78c500;
+background-image: linear-gradient(90deg, #78c500 0%, #bd4500 100%);
+
+}
+
+.sdg-img-12{
+background-color: #ff90d0;
+background-image: linear-gradient(225deg, #ff90d0 0%, #b053ff 50%, #55b9ff 100%);
+
+}
+
+.sdg-img-13{
+background-color: #ff8c40;
+background-image: linear-gradient(45deg, #ff8c40 0%, #5500ff 50%, #fd3b3b 100%);
+}
+
+.sdg-img-14{
+background-color: #ff6258;
+background-image: linear-gradient(62deg, #ff6258 0%, #ffb823 100%);
+
+}
+
+.sdg-img-15{
+background-color: #5e5e5e;
+background-image: linear-gradient(180deg, #5e5e5e 0%, #50beff 50%, #b90202 100%);
+
+}
+
+.sdg-img-16{
+background-color: #ff0000;
+background-image: linear-gradient(0deg, #ff0000 0%, #ffc300 19%, #fdf24d 39%, #87ff47 60%, #51d1ff 80%, #ad37f3 100%);
+
+}
+
+.sdg-img-17{
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}

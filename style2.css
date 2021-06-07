@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+.sdg-section{
+	margin: 0 auto;
+	padding: 2% 3%;
+}
+
+.sdg-grid{
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.sdg-grid:after{
+	clear: both;
+}
+
+.sdg-grid:after, .sdg-grid:before{
+	content: "";
+	display: table;
+}
+
+.sdg-grid li{
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.sdg-box{
+	width: 90%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+	border-radius: 10px;
+	-webkit-transition:  0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;	
+    -moz-transition:  0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition:  0.3s ease-in-out, transform 0.3s ease-in-out;	
+}	
+
+.sdg-box:hover{
+	transform: scale(1.05);
+}
+

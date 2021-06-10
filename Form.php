@@ -6,9 +6,13 @@
 <script src="Scripts.js"></script>
 <!--Link to external stylesheet-->
 <link rel="stylesheet" type="text/css" href="Form style.css">
+<!--Connection to Bootrstrap Stylesheet -->	
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!--This image will be the favicon-->
 <link rel="shortcut icon" type="image/jpg" href="https://drive.google.com/uc?export=view&id=1nK2v00rKSLMzBJIgy0OmcTaJ7etAAgbL">
+<!--Connection to Fontawesome icon library -->
 <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<!--Connection to external css stylesheet -->
 <link rel="stylesheet" type="text/css" href="Form Style.css">
 </head>
 <body>

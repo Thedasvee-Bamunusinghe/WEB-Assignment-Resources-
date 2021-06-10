@@ -33,13 +33,17 @@
 		<label><i class="fa fa-comment" aria-hidden="true"></i> Last Name:</label><br>
 		<input type="text" name="Lname">
 	</div>
-		<tr><td>Email:</td>
-			<td><input type="email" name="email"></td>
-		</tr>
-		<tr><td><input type="submit" name="done" value="Submit"></td>
-		</tr>
+	
+	<div class="form-group">
+		<label><i class="fa fa-envelope" aria-hidden="true"></i> Email:</label><br>
+		<input type="email" name="email"><br>
+	</div>
+	
+	<div class="form-group">
+		<input type="submit" name="done" value="Submit">
+	</div>	
 		
-</table>
+
 </form>
 </body>
 </html>

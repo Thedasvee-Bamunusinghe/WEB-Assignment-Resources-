@@ -28,17 +28,21 @@
 	<!-- Table containing fields for user input -->
 	<h1> Enter Your Details </h1>
 	
+	<!--div class used to seperate fields of the form-->
 	<div class="form-group">
+	<!--i tags use the Fontawesome library to show various icons on the page, here it is used to show a user icon -->
 	<label><i class="fa fa-user" aria-hidden="true"></i> First Name:</label><br>
 		<input type="text" name="Fname">
 	</div>
 	
 	<div class="form-group">
+		<!--Fontawesome icon for a comment -->
 		<label><i class="fa fa-comment" aria-hidden="true"></i> Last Name:</label><br>
 		<input type="text" name="Lname">
 	</div>
 	
 	<div class="form-group">
+		<!--Fontawesome icon for an envelope -->
 		<label><i class="fa fa-envelope" aria-hidden="true"></i> Email:</label><br>
 		<input type="email" name="email"><br>
 	</div>

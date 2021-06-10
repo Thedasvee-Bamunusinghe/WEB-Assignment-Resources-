@@ -6,6 +6,10 @@
 <script src="Scripts.js"></script>
 <!--Link to external stylesheet-->
 <link rel="stylesheet" type="text/css" href="Form style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="shortcut icon" type="image/jpg" href="https://drive.google.com/uc?export=view&id=1nK2v00rKSLMzBJIgy0OmcTaJ7etAAgbL">
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" type="text/css" href="Form Style.css">
 </head>
 <body>
 

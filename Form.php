@@ -12,18 +12,27 @@
 <link rel="stylesheet" type="text/css" href="Form Style.css">
 </head>
 <body>
-
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+<a class="navbar-logo" href=""><img src="https://drive.google.com/uc?export=view&id=1ZCKxb_a6yf4YS4A5d0l8SxAuONhmJZ9B" width="8%" height="8%"></a>
+<a href="index.html"><button type="button" class="btn btn-primary btn-md"><i>< Back To Homepage</i></button></a>
+</div>
+</nav>
+	
 <!-- Link to php file (the file will fetch entered information) , the javascript file will exceute function validation once the form is submitted -->
-<form name="details" method="post" action="Applicant Info Inner.php" onsubmit="validateForm()">
+<form name="details" method="post" action="Form Inner.php" onsubmit="validateForm()">
 	<!-- Table containing fields for user input -->
 	<h1> Enter Your Details </h1>
-	<table>
-		<tr><td>First Name:</td>
-			<td><input type="text" name="Fname"></td>
-		</tr>
-		<tr><td>Last Name:</td>
-			<td><input type="text" name="Lname"></td>
-		</tr>
+	
+	<div class="form-group">
+	<label><i class="fa fa-user" aria-hidden="true"></i> First Name:</label><br>
+		<input type="text" name="Fname">
+	</div>
+	
+	<div class="form-group">
+		<label><i class="fa fa-comment" aria-hidden="true"></i> Last Name:</label><br>
+		<input type="text" name="Lname">
+	</div>
 		<tr><td>Email:</td>
 			<td><input type="email" name="email"></td>
 		</tr>

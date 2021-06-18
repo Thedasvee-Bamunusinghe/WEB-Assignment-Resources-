@@ -1,0 +1,140 @@
+body {
+    font-size: 19px;
+    background-image: url("https://i.imgur.com/fm0ibZr.jpg");
+    padding: 0;
+    
+}
+
+
+label {
+    border:1px;
+    height: 30px;
+    color: black;
+    font-family:cambria;
+    text-align: center;
+
+}
+
+form {
+    width: 40%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 25px; 
+    border: 2px solid #bbbbbb; 
+    border-radius: 50px;
+    border-color: purple;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+input {
+    width: 60%;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    border: 10px;
+    border-radius: 50px;
+    font-family: garamond;
+    text-shadow : horizontal-shadow vertical-shadow blur color;
+    background-color: #63eed8;
+    background-image: linear-gradient(162deg, #63eed8 0%, #8d9ee6 100%);
+    
+}
+
+input:hover{
+background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+color: white;
+}
+
+input[type=submit] {
+background-color: #debb2c;
+background-image: linear-gradient(132deg, #debb2c 0%, #16A085 100%);
+font-size: 20px;
+border-radius: 50px;
+
+}
+
+input[type=submit]:hover{
+padding-top: 10px;
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+
+}
+
+
+h1 {
+
+    text-align: center;
+    color:black;
+    font-family: Book Antiqua;
+
+
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+.btn-primary{
+border: 0;
+background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+font-family: garamond;
+border-radius: 20px;
+
+}
+
+.btn-primary:hover{
+background-color: #f55c8a;
+background-image: linear-gradient(0deg, #f55c8a 0%, #7dfffc 100%);
+color: black;
+}
+
+input[type=button]{
+background-color: #FAD961;
+background-image: linear-gradient(315deg, #FAD961 0%, #F76B1C 100%);
+width: 40%;
+}
+
+@media (max-width: 992px) {
+
+form{
+    width: 60%;
+}
+input{
+    width: 70%;
+}
+}
+
+@media (max-width: 576px) {   
+.btn-primary{
+    font-size: 14px;
+}    
+form{
+    width: 100%;
+}
+input{
+
+    width: 100%;
+
+}
+h1{
+    font-size: 25px;
+}
+}
+
+
+@media (max-width: 768px) {
+form{
+    width: 70%;
+}
+input{
+    width: 80%;
+}
+h1{
+    font-size: 30px;
+}
+}
+

@@ -53,6 +53,8 @@
 	<div class="form-group">
 		<!--Button used to confirm information, it will send the information to the php file through the post method -->
 		<input type="submit" name="done" value="Submit">
+		<!--Button to go directly to database-->
+		<a href="Form inner.php"><input type="button" name="goto" value="Go To Database"></a>
 	</div>	
 		
 

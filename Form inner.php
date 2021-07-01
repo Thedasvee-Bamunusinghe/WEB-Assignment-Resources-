@@ -80,12 +80,12 @@ if (isset($_GET['edit'])){
 	}
 }   
     /*This will execute once the update button is pressed*/
-	if (isset($_POST['update'])){
-		$id = $_POST['id'];
+	if (isset($_REQUEST['update'])){
+		$id = $_REQUEST['id'];
 		/*Fields are updated and assigned from the internal form to the main variables*/
-		$fname = $_POST['fname2'];
-		$lname = $_POST['lname2'];
-		$email = $_POST['email2'];
+		$fname = $_REQUEST['fname2'];
+		$lname = $_REQUEST['lname2'];
+		$email = $_REQUEST['email2'];
 		/*The relevant fields within the database are changed based on the new information*/
 		$mysqli->query("UPDATE data SET FName='$fname', LName='$lname', Email='$email' WHERE ID=$id") or die($mysqli->error);
 	}
@@ -140,8 +140,8 @@ while($row = $result->fetch_assoc()) { ?>
 if ($update == true):
 ?>
 <table>	
-<!--$_SERVER['PHP_SELF'] will use the post method to retrieve information from this php file itself-->	
-<form method="post" action="<?=$_SERVER['PHP_SELF'];?>">
+<The post method with $_Request statements will be used to retrieve information from this form-->	
+<form method="post">
 <input type="hidden" name="id" value="<?php echo $id; ?>">	
 <tr>		
 <td>First Name:</td>
